@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/IcoMhusa.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="menu">
+        <a class="pagina" href="../index.html">INICIO</a>
+        <a class="pagina" href="productos.html">PRODUCTOS</a>
+        <a class="pagina" href="sobremi.html">SOBRE MI</a>
+        <a class="pagina" href="contacto.html">CONTACTO</a>        
+        
+        
+    </div>
+
+    <div class="principal">
+        <div class="texto">
+            <form class="formulario" id="contacto" onsubmit="return validarFormulario()" method="post">
+                <label for="nombre">Nombre:</label>
+                <input class="recuadro" type="text" id="nombre" name="nombre" required><br><br>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input class="recuadro" type="email" id="email" name="email" required><br><br>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="recuadro" id="mensaje" name="mensaje" required></textarea><br><br>
+        
+                <input class="enviar" type="submit" value="Enviar">
+            </form>
+
+            <div class="instagram">
+                <i class="fa-brands fa-whatsapp fa-2xl"></i>
+                <a class="pagina" target="_blank" href="https://api.whatsapp.com/send?phone=543534183690&text=¡Hola! Estuve viendo los productos. Me interesa..."> WHATSAPP</a>
+            </div>
+
+        </div>
+
+    
+
+    </div>
+    <script src="../javascript/form.js"></script>
+    <script src="https://kit.fontawesome.com/81f7f6bd59.js" crossorigin="anonymous"></script>
+</body>
+</html>
